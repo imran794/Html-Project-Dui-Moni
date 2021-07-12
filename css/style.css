@@ -74,7 +74,7 @@ nav {
 }
 
 nav li {
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 nav ul li a {
@@ -100,7 +100,7 @@ nav ul li a.active {
 }
 
 .manu_log {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .manu_log a {
@@ -2581,3 +2581,298 @@ body {
 /*================================================
                  load part end
 =================================================*/
+
+
+/*=============================================
+            Register part start
+==============================================*/
+
+#Register {
+    padding: 70px 0 80px 0;
+}
+
+.Register_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Register h3 {
+     font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2e3e50;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.Register h3:after {
+    position: absolute;
+    content: "";
+    top: 80px;
+    left: 0;
+    width: 58px;
+    height: 4px;
+    background: #2e3e50;
+}
+
+.Register p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+     color: #444;
+    padding-bottom: 20px;
+}
+
+.frist_input input {
+      font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    border: 0;
+    width: 46%;
+    border-bottom: 1px solid #dddddd;
+    padding-left: 0;
+    margin-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.frist_input {
+    position: relative
+}
+
+.icon55 {
+    position: absolute;
+    bottom: 60px;
+    left: 227px;
+    color: #444;
+}
+
+.icon60 {
+    position: absolute;
+    bottom: 60px;
+    right: 32px;
+    color: #999999;
+}
+
+.secend_input input {
+     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+     color: #444;
+    border: 0;
+    padding-bottom: 10px;
+    width: 97%;
+    border-bottom: 1px solid #dddddd;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+
+.secend_input {
+    position: relative;
+}
+
+.mesage {
+    position: absolute;
+    top: 12px;
+    right: 23px;
+    color: #999999;
+}
+
+.look {
+    position: absolute;
+    top: 96px;
+    right: 24px;
+    color: #999999;
+}
+
+
+
+
+
+
+.main_contact button {
+    width: 100%;
+    background: linear-gradient(45deg, #F321d6, #5121f3);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 6px 0px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+
+
+
+
+.main_contact button {
+    float: left;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid #9e02c5;
+    margin-right: 15px;
+    text-transform: capitalize;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    position: relative;
+    z-index: 1;
+}
+
+.main_contact button:hover {
+    color: #fff;
+
+}
+
+.main_contact button:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #F321d6, #5121f3);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    z-index: -1;
+
+}
+
+.main_contact button:hover:after {
+    width: 0;
+}
+
+
+
+.main_contact button:hover {
+    background: transparent;
+    color: #333;
+}
+
+.info span {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+    font-weight: 400;
+
+}
+
+.info a {
+    font-size: 16px;
+    color: #2d3e50;
+}
+
+.info .or {
+    padding-left: 2px;
+}
+
+.info .facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4d65aa;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+.info .google {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+/*=============================================
+            Register part end
+==============================================*/
+
+ 
+
+/*=============================================
+            login page start
+==============================================*/
+
+
+
+.sign_in h3 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2e3e50;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.sign_in h3:after {
+    position: absolute;
+    content: "";
+    top: 80px;
+    left: 0;
+    width: 58px;
+    height: 4px;
+    background: #2e3e50;
+}
+
+.sign_in p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    padding-bottom: 60px;
+}
+
+.info2 a {
+    padding-right: 150px;
+    font-size: 16px;
+    color: #2d3e50;
+}
+
+.info2 span {
+    font-size: 15px;
+    font-family: 'Arimo', sans-serif;
+    color: #999999;
+    font-weight: 400;
+
+}
+
+
+
+
+
+/*=============================================
+            login page end
+==============================================*/
