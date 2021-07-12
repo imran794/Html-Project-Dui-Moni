@@ -1,0 +1,1471 @@
+
+/*===========================================
+               home page start
+==============================================*/
+
+@media(min-width:320px) and (max-width:575px) {
+
+    nav {
+        background: #222;
+    }
+
+    .navbar-brand {
+        color: #fff;
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    nav ul li a {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    nav ul li a:hover {
+        color: #9e02c5;
+    }
+
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    nav ul li a::before {
+        display: none;
+    }
+
+    .manu_log {
+        margin-left: 0;
+    }
+
+    .manu_log {
+        text-align: center;
+    }
+    
+    .manu_log a {
+        display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 20px;
+    }
+
+    .banner_text h1 {
+        font-size: 24px;
+    }
+
+    .banner_text p {
+        font-size: 13px;
+    }
+
+    .banner_button a {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+
+    .banner_button2 a {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+
+/*
+    .main {
+        width: 0;
+        height: 0;
+        position: inherit;
+        margin: 50px auto;   
+    }
+
+    .slide {
+        position: inherit;
+        left: 0;
+        bottom: 0;
+    }
+*/
+
+    .slide img {
+        width: 100%;
+    }
+
+    .about_left h3 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .about_left h3::after {
+        top: 30px;
+    }
+
+    .about_left h4 {
+        padding-top: 0;
+        font-size: 18px;
+    }
+
+    .about_left p {
+        font-size: 13px;
+    }
+
+    .about_left a {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+
+    .index_icon ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .services_haed h3 {
+        font-size: 20px;
+    }
+
+    .services_haed h3::after {
+        top: 30px;
+    }
+
+    .ser_card .ayman {
+        font-size: 30px;
+    }
+
+    .ser_card {
+        margin-bottom: 30px;
+    }
+
+    .ser_card h3 {
+        font-size: 18px;
+    }
+
+    .ser_card p {
+        font-size: 13px;
+    }
+
+    .ser_card a {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+
+    .ser_card:nth-child(3){
+        margin-bottom: none;
+    }
+
+    .features_left h3 {
+        font-size: 20px;
+    }
+
+    .features_left h3::after {
+        top: 30px;
+    }
+
+    .features_left ul li {
+        font-size: 14px;
+    }
+
+    .features_button a {
+        padding: 5px 20px;
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .pricing_head h3 {
+        font-size: 20px;
+    }
+
+    .pricing_head h3::after {
+        top: 30px;
+    }
+
+    .price_table .price_head h4 {
+        font-size: 18px;
+    }
+
+    .price_table .price_head h3 {
+        font-size: 28px;
+    }
+
+    .price_content ul li {
+        font-size: 14px;
+    }
+
+    .price_button a {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+
+    .portfolio_head h3 {
+        font-size: 20px;
+    }
+
+    .portfolio_head h3::after {
+        top: 30px;
+    }
+
+    .portfolio_box ul li {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .contant a i {
+        font-size: 20px;
+    }
+
+    .contant h3 {
+        font-size: 18px;
+    }
+
+    .contant p {
+       font-size: 14px;
+    }
+
+    .team_ss h3 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .team_ss h3::after {
+        top: 30px;
+    }
+
+    .team_ss p {
+        font-size: 13px;
+    }
+
+    .team_ss ul li a {
+        margin-bottom: 30px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .team_overlay ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    .team_overlay h3 {
+        font-size: 18px;
+    }
+
+    .team_overlay h4 {
+        font-size: 16px;
+    }
+
+    .text_head h3 {
+        font-size: 20px;
+    }
+
+    .text_head h3::after {
+        top: 30px;
+    }
+
+    .text_box {
+        margin-bottom: 30px;
+    }
+
+    .Tcontant p {
+        font-size: 14px;
+    }
+
+    .text_box .details h4 {
+        font-size: 18px;
+    }
+
+    .text_box .details h5 {
+        font-size: 16px;
+    }
+
+    .blog_head h3 {
+        font-size: 20px;
+    }
+
+    .blog_head h3::after {
+        top: 30px;
+    }
+    
+
+    .las_detlis h4 {
+        font-size: 16px;
+    }
+
+    .las_detlis p {
+        font-size: 13px;
+    }
+
+    .las_detlis a {
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+    .contact_head h3 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .contact_head h3::after {
+        top: 30px;
+    }
+
+    .main_con input {
+        font-size: 14px;
+    }
+
+    .main_con button {
+        padding: 5px 20px;
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .last_con h3 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    } 
+
+    .last_con h3::after {
+        top: 30px;
+    }
+
+    .last_con p {
+        font-size: 14px;
+    }
+
+    .address p {
+        font-size: 12px;
+    }
+
+    .address .size_md {
+        font-size: 24px;
+    }
+
+    .so_icon ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px
+    }
+
+    .footer_head p {
+        font-size: 11px;
+    }
+
+    .anq {
+    
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+}
+
+}
+
+@media (min-width:576px) and (max-width:767px){
+    nav {
+        background:#222;
+    }
+
+    .navbar-brand {
+        color: #fff;
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    nav ul li a {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    nav ul li a:hover {
+        color: #9e02c5;
+    }
+
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    nav ul li a::before {
+        display: none;
+    }
+
+    .manu_log {
+        text-align: center;
+    }
+    
+    .manu_log a {
+       display: none;
+    }
+
+    .banner_text h2 {
+        font-size: 22px;
+    }
+
+    .banner_text h1 {
+        font-size: 32px;
+    }
+
+    .banner_text p {
+        font-size: 15px;
+    }
+
+    .banner_button a {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .banner_button2 a {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .about_left h3 {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    .about_left h3::after {
+        top: 35px;
+    }
+
+    .about_left h4 {
+        font-size: 22px;
+        padding-top: 0;
+    
+    }
+
+    .about_left p {
+        font-size: 15px;
+    }
+
+    .about_left a {
+        padding: 5px 20px;
+    }
+
+    .index_icon ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .only_sm {
+        display: inline-block;
+    }
+
+    .ser_card  {
+        margin-bottom: 30px;
+    }
+
+    .ser_card .ayman {
+        font-size: 36px;
+    }
+
+    .ser_card h3 {
+        font-size: 18px;
+    }
+
+    .ser_card p {
+        font-size: 14px;
+    }
+
+    .ser_card a {
+        padding: 5px 20px;
+    }
+
+    .features_left h3 {
+        font-size: 24px
+    }
+
+    .features_left h3::after {
+        top: 35px;
+    }
+
+    .features_left ul li {
+        font-size: 15px;
+    }
+
+    .features_button a {
+        padding: 5px 20px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .pricing_head h3 {
+        font-size: 24px;
+    }
+
+    .pricing_head h3::after {
+        top: 35px;
+    }
+
+    .price_table .price_head h4 {
+        font-size: 18px;
+    }
+
+    .price_table .price_head h3 {
+        font-size: 20px;
+    }
+
+    .price_content ul li {
+        font-size: 14px;
+    }
+
+    .price_button a {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .portfolio_head h3 {
+        font-size: 24px;
+    }
+
+    .portfolio_head h3::after {
+        top: 35px;
+    }
+
+    .portfolio_box ul li {
+        font-size: 15px;
+    }
+
+    .contant a i {
+        font-size: 24px;
+    }
+
+    .contant h3 {
+        font-size: 20px;
+    }
+
+    .contant p {
+        font-size: 14px;
+    }
+
+    .team_ss h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .team_ss h3::after {
+        top: 35px;
+    }
+
+    .team_ss p {
+        font-size: 14px;
+    }
+
+    .team_ss ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .team_overlay h3 {
+        font-size: 20px;
+    }
+
+    .team_overlay ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    .team_overlay h4 {
+        font-size: 16px;
+    }
+
+    .text_head h3 {
+        font-size: 24px;
+    }
+
+    .text_head h3::after {
+        top: 35px;
+    }
+
+    .Tcontant p {
+        font-size: 14px;
+    }
+
+    .text_box .details h4 {
+        font-size: 20px;
+    }
+
+    .text_box .details h5 {
+        font-size: 16px;
+    }
+
+
+    .text_box {
+        margin-bottom: 30px;
+    }
+
+    .blog_head h3 {
+        font-size: 24px;
+    }
+
+    .blog_head h3::after {
+        top: 35px;
+    }
+    
+    .las_img .overlay p {
+        font-size: 14px;
+    }
+
+
+    .las_detlis h4 {
+        font-size: 16px;
+    }
+
+    .las_detlis p {
+        font-size: 14px;
+    }
+
+    .las_detlis a {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .contact_head h3 {
+        font-size: 24px;
+    }
+
+    .contact_head h3::after {
+        top: 35px;
+    }
+
+    .main_con input {
+        font-size: 14px;
+    }
+
+    .main_con button {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .last_con h3 {
+        font-size: 24px;
+        margin-bottom: 53px;
+    }
+
+    .last_con h3::after {
+        top: 35px;
+    }
+
+    .last_con p {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+
+    .address .size_md {
+        font-size: 24px;
+        padding-right: 0;
+    }
+
+    .address p {
+        font-size: 11px;
+    }
+
+    .so_icon ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .footer_head p {
+        font-size: 13px;
+    }
+
+    .anq {
+    
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+}
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    nav li {
+        padding-left: 0;
+    }
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    nav ul li a:hover {
+        color: #9e02c5;
+    }
+
+    nav ul li a::after{
+        display: none;
+    }
+    .manu_log {
+        margin-left: 5px;
+    }
+
+    .manu_log a {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+
+    .banner_text h2 {
+        font-size: 20px;
+    }
+
+    .banner_text h1 {
+        font-size: 32px;
+    }
+
+    .banner_text p {
+        font-size: 14px;
+        padding-right: 250px;
+    }
+
+    .banner_button a {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .banner_button2 a {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .about_left h3 {
+        margin-top: 80px;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .about_left h3::after {
+        top: 30px;
+    }
+
+    .about_left h4 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    .about_left p{
+        font-size: 14px;
+    }
+
+    .about_left a{
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .index_icon ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .ser_card .ayman {
+        font-size: 32px;
+    }
+
+    .ser_card h3 {
+        font-size: 17px;
+    }
+
+    .ser_card p {
+        font-size: 15px;
+    }
+
+    .ser_card a {
+        padding: 5px 20px;
+        font-size: 17px;
+    }
+
+    .features_left h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .features_left h3::after {
+        top: 30px;
+    }
+
+    .fetures_rigth img {
+        margin-top: 90px;
+    }
+
+    .features_button a {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .pricing_head h3 {
+        font-size: 24px;
+    }
+
+    .pricing_head h3::after {
+        top: 30px;
+    }
+
+    .price_table .price_head h4 {
+        font-size: 16px;
+    }
+
+    .price_table .price_head h3 {
+        font-size: 18px;
+    }
+
+    .price_content ul li {
+        font-size: 14px;
+    }
+
+    .price_button a {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .portfolio_head h3 {
+        font-size: 24px;
+    }
+
+    .portfolio_head h3::after {
+        top: 30px;
+    }
+
+    .portfolio_box ul li {
+        font-size: 14px;
+    }
+
+    .contant a i {
+        font-size: 20px;
+    }
+
+    .contant h3 {
+        font-size: 16px;
+    }
+
+    
+    .contant p {
+        font-size: 12px;
+    }
+
+    .team_ss h3 {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .team_ss h3::after {
+        top: 30px;
+    }
+
+    .team_ss p {
+        font-size: 14px;
+    }
+
+    .team_ss ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .team_overlay h3 {
+        font-size: 20px;
+    }
+
+    .team_overlay h4 {
+        font-size: 16px;
+    }
+
+    .team_overlay ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .text_head h3 {
+        font-size: 24px;
+    }
+
+    .text_head h3::after {
+        top: 30px;
+    }
+
+    .Tcontant p {
+        font-size: 14px;
+    }
+
+    .text_box .details h4 {
+        font-size: 20px;
+    }
+
+    .text_box .details h5 {
+        font-size: 15px;
+    }
+    
+    .las_detlis p {
+        font-size: 14px;
+    } 
+    
+    .las_detlis a {
+         padding: 5px 20px;
+        font-size: 14px;
+    }
+
+    .contact_head h3 {
+        font-size: 24px;
+    }
+
+    .contact_head h3::after {
+        top: 30px;
+    }
+
+    .main_con input {
+        font-size: 14px;
+    }
+
+    .main_con textarea {
+        font-size: 14px;
+    }
+
+    .main_con button {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    .last_con h3 {
+        font-size: 24px;
+    }
+
+    .last_con h3::after {
+        top: 30px;
+    }
+    
+    .las_img .overlay p {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    
+    .las_detlis h4 {
+        font-size: 17px;
+    }
+
+    .last_con p {
+        font-size: 14px;
+    }
+
+    .address .size_md {
+        font-size: 24px;
+    }
+
+    .address p {
+        font-size: 15px;
+    }
+
+    .so_icon ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .footer_head p {
+        font-size: 14px;
+    }
+
+    .anq {
+    
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+}
+
+}
+
+/*===========================================
+               home page end
+==============================================*/
+
+/*===========================================
+               about page start
+==============================================*/
+
+@media (max-width:575px){
+    .ab_banner_head h3 {
+        font-size: 32px;
+    }
+
+    .ab_banner_head h4 {
+        font-size: 18px;
+    }
+
+    .frame {
+        display: none;
+    }
+
+    .about_text h3 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    .about_text p {
+        font-size: 13px;
+    }
+
+    .resume h4 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .resume p {
+        font-size: 13px;
+    }
+
+    .resume1 h4 {
+        font-size: 18px;
+    }
+
+    .resume1 p {
+        font-size: 13px;
+    }
+
+    .resume2 h4 {
+        font-size: 18px;
+    }
+
+    .resume2 p {
+        font-size: 13px;
+    }
+
+    .resume3 h4 {
+        font-size: 16px;
+    }
+
+    .resume3 p {
+        font-size: 13px;
+    }
+
+    .email h4 {
+        margin-top: 0;
+        font-size: 16px;
+    }
+
+    .email p {
+        font-size: 13px;
+    }
+
+    .phone h4 {
+        font-size: 16px;
+    }
+
+    .phone p {
+        font-size: 13px;
+    }
+
+    .Skype h4 {
+        font-size: 16px;
+    }
+
+    .Skype p {
+        font-size: 13px;
+    }
+
+    .Freelance h4 {
+        font-size: 16px;
+    }
+
+    .Freelance p {
+        font-size: 13px;
+    }
+
+    .about_button a {
+        padding: 5px 12px;
+        font-size: 15px;
+    }
+
+    .Resume_haed h3 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .Resume_haed h3::after {
+        top: 30px;
+    }
+
+    .graduation h3 {
+        font-size: 24px;
+    }
+
+    .gar_detl h3 {
+        font-size: 17px;
+    }
+
+    .gar_detl h5 {
+        font-size: 17px;
+    }
+
+    .gar_detl p {
+        font-size: 14px;
+    }
+
+    .stuty h3 {
+        font-size: 17px;
+    }
+
+    .stuty h5 {
+        font-size: 17px;
+    }
+
+    .stuty p {
+        font-size: 14px;
+    }
+
+    .graduation h3 {
+        font-size: 17px;
+    }
+
+    .anq {
+    
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+}
+}
+
+@media (min-width:576px) and (max-width:767px)
+{
+    .ab_banner_head h3 {
+        font-size: 36px;
+    }
+
+    .ab_banner_head h4 {
+        font-size: 20px;
+    }
+    .about_text h3 {
+        margin-top: 0;
+        font-size: 24px;
+    }
+
+    .about_text p {
+        font-size: 13px;
+    }
+
+    .resume h4 {
+        margin-top: 10px;
+        font-size: 17px;
+    }
+
+    .resume p {
+        font-size: 13px;
+    }
+
+    .resume1 h4 {
+        font-size: 17px;
+    }
+
+    .resume1 p {
+        font-size: 13px;
+    }
+
+    .resume2 h4 {
+        font-size: 17px;
+    }
+
+    .resume2 p {
+        font-size: 13px;
+    }
+
+    .resume3 h4 {
+        font-size: 17px;
+    }
+
+    .resume3 p {
+        font-size: 13px;
+    }
+
+    .email h4 {
+        margin-top: 0;
+        font-size: 17px;
+        margin-right: 14px;
+    }
+
+    .email p {
+        font-size: 13px;
+    }
+
+    .phone h4 {
+        font-size: 17px;
+    }
+
+    .phone p {
+        font-size: 13px;
+    }
+
+    .Skype h4 {
+        font-size: 17px;
+    }
+
+    .Skype p {
+        font-size: 13px;
+    }
+
+    .Freelance h4 {
+        font-size: 17px;
+    }
+
+    .Freelance p {
+        font-size: 13px;
+    }
+
+    .about_button a {
+        padding: 5px 12px;
+        font-size: 16px;
+    }
+
+    .Resume_haed h3 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .Resume_haed h3::after {
+        top: 30px;
+    }
+
+    .graduation h3 {
+        font-size: 24px;
+    }
+
+    .gar_detl h3 {
+        font-size: 13px;
+    }
+
+    .gar_detl h5 {
+        font-size: 15px;
+    }
+
+    .gar_detl p {
+        font-size: 12px;
+    }
+
+    .stuty h3 {
+        font-size: 13px;
+    }
+
+    .stuty h5 {
+        font-size: 17px;
+    }
+
+    .stuty p {
+        font-size: 12px;
+    }
+
+    .graduation h3 {
+        font-size: 15px;
+    }
+
+    .anq {
+    
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+}
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .ab_banner_head h3 {
+        font-size: 42px;
+    }
+
+    .ab_banner_head h4 {
+        font-size: 20px;
+    }
+
+    
+    .about_text h3 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+    .about_text p {
+        font-size: 14px;
+    }
+
+    .resume h4 {
+        font-size: 17px;
+    }
+
+    .resume1 h4 {
+        font-size: 17px;
+    }
+
+    .resume1 p {
+        font-size: 14px;
+    }
+
+    .resume2 h4 {
+        font-size: 17px;
+    }
+
+    .resume2 p {
+        font-size: 14px;
+    }
+
+    .resume3 h4 {
+        font-size: 17px;
+    }
+
+    .resume3 p {
+        font-size: 14px;
+}
+
+.email h4 {
+    margin-right: 56px;
+}
+
+.about_button a {
+    font-size: 16px;
+}
+
+.graduation h3 {
+    font-size: 28px;
+}
+
+.gar_detl h3 {
+    font-size: 19px;
+}
+
+.gar_detl h5 {
+    font-size: 18px;
+
+}
+
+.gar_detl p {
+    font-size: 14px;
+}
+
+.stuty h3 {
+    font-size: 19px;
+}
+
+.stuty h5 {
+    font-size: 18px;
+}
+
+.stuty p {
+    font-size: 14px;
+}
+
+.anq {
+    
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+}
+
+/*===========================================
+               about page end
+==============================================*/
+
+
+/*===========================================
+               services page start
+==============================================*/
+
+@media  (max-width:575px){
+
+    .port_head h3 {
+        font-size: 32px;
+    }
+
+    .port_head h4 {
+        font-size: 18px;
+    }
+
+    .anq {
+    
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+}
+}
+
+@media (min-width:576px) and (max-width:767px){
+
+    .port_head h3  {
+        font-size: 36px;
+    }
+
+    .port_head h4 {
+        font-size: 20px;
+    }
+
+    #services {
+        padding: 55px 0 0 0;
+    }
+
+    .anq {
+    
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+}
+
+}
+
+@media (min-width:767px) and (max-width:991px){
+
+    .port_head h3 {
+        font-size: 42px;
+    }
+
+    .port_head h4 {
+        font-size: 20px;
+    }
+    .ser_card h3 {
+        font-size: 15px;
+    }
+}
+
+
+/*===========================================
+               services page end
+==============================================*/
+
+
+/*===========================================
+               pricing page start
+==============================================*/
+
+@media (min-width:320px) and (max-width:575px)
+{
+    
+}
+
+
+
+/*===========================================
+               pricing page end
+==============================================*/
